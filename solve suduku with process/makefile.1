@@ -1,0 +1,9 @@
+OS_ex1: OS_ex1.c functions.c functions.h
+	gcc -o OS_ex1 OS_ex1.c functions.c -I.
+checkSmall: checkSmallMat.c functions.c functions.h
+	gcc -o checkSmall checkSmallMat.c functions.c -I.
+checkCol: checkColumns.c functions.c functions.h
+	gcc -o checkCol checkColumns.c functions.c -I.
+checkRow: checkRows.c functions.c functions.h
+	gcc -o checkRow checkRows.c functions.c -I.
+

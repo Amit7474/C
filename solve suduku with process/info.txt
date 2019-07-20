@@ -1,0 +1,2 @@
+***Runs on Linux(Ubuntu)***
+The program gets file name from argv that contains suduku solution, creates 3 child process (Fork) that perform seperate tasks using Execv and send the answer to the parent with Pipes
