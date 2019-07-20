@@ -1,4 +1,4 @@
 ***Runs on Linux(Ubuntu)***
-Solve suduku with threads.
+Check suduku solution with threads.
 V1: create 27 tasks for 27 threads
 V2: Create N threads that use global variable, tasks, mutexes and condition variables
